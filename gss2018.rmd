@@ -156,7 +156,7 @@ One variable is numerical and the other is categorical so therefore we use numer
 plot(WORDSUM~DEGREE,data=GSSdata)
 ```
 
-This graph shows 
+This graph shows the higher your level of degree is, the higher your wordsum score is.
 
 #### Numerical Descriptive Results
 
@@ -176,6 +176,8 @@ This summary shows
 model1 <- aov(WORDSUM~DEGREE,data=GSSdata)
 summary.aov(model1)
 ```
+
+Since the p value is 0.00000025, we reject the null hypothesis.
 
 # Discussion and Conclusion
 
