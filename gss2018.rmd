@@ -166,7 +166,7 @@ This graph shows the higher your level of degree is, the higher your wordsum sco
 favstats(WORDSUM~DEGREE,data=GSSdata)
 ```
 
-This summary shows 
+This summary shows lths scores the lowest score, while hs scores one more than lths. Jc and b scores are the same, while g scores the highest.
 
 ### Inferential Results
 
@@ -183,3 +183,4 @@ Since the p value is 0.00000025, we reject the null hypothesis.
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
+In conclusion, this shows even though there are 3 different questions each one has its own answers and are different from each other. But on thing in common is we end up rejecting the null hypothesis for all the p values for each question.
